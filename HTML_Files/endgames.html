@@ -1,0 +1,306 @@
+<!--A page detailing important endgames that a chess player must learn to become
+proficient at the game -->
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset ="UTF-8">
+		<title>Basic Endgames</title>
+		<link rel="stylesheet" type="text/css" href="../CSS_Style_Sheet/StyleSheet.css">
+	</head>
+	
+	<body>
+		<!--Outputting the links to the other webpages on the site -->
+		<nav class = "banner">
+			<div class = "header_links_position">
+			<div class = "header_links"><a class = "link_format" href = "chess_main.html">Home </a></div>
+			<div class = "header_links"><a class = "link_format" href = "endgames.html">Endgames</a></div>
+			<div class = "header_links"><a class = "link_format" href = "tactics.html">Tactics </a></div>
+			<div class = "header_links"><a class = "link_format" href = "famous_games.html">Famous Games </a></div>
+			</div> <br>
+		</nav>
+		
+		<h2>Endgames to Know by Heart</h2>
+		
+		<p>Simply put, there is no substitution for a good understanding
+		of basic chess endgames. While each of these endgames could be 
+		learned in any order, it is likely to your benefit to start with
+		the easiest endgames first and then work your way up to the harder
+		ones later on. For your convenience, use the table below to determine
+		which endgame you would like to learn next. The endgames are ranked
+		by difficulty on a scale of 1 to 10, with 1 being the easiest, and 
+		10 being the hardest. You can simply click on the name of the endgame you
+		would like to learn next to jump right into it.</p>
+	
+		<!--Creating a table showing the name of each endgame, whether or not a win can be forced,
+		how many moves it will take (at most) for checkmate, and how difficult the checkmate is
+		on a scale of 1 to 10. The name of each endgame is a link to the spot on the page where the
+        endgame is described -->	
+		<table class = "table_properties" style = "margin-left: 10%" border = "1">
+			<caption><strong style = "margin-left:35%; margin-right: 10%;">Chess Endgame Difficulties</strong></caption>
+			<thead>
+				<tr>
+					<th> Type of Endgame </th>
+					<th> Forced win? </th>
+					<th> Max. number of moves to checkmate </th>
+					<th> Difficulty rating </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class = "table_hover"><a class = "table_links" href = "#two_rooks">Two Rooks and King vs. Lone King</a></td>
+					<td>Yes</td>
+					<td>8</td>
+					<td>1</td>
+				</tr>
+				
+				<tr>
+					<td class = "table_hover"><a class = "table_links" href = "#queen">Queen and King vs. Lone King</a></td>
+					<td>Yes</td>
+					<td>10</td>
+					<td>1</td>
+				</tr>
+				
+				<tr>
+					<td class = "table_hover"><a class = "table_links" href = "#rook"> Rook and King vs. Lone King</a></td>
+					<td>Yes</td>
+					<td>16</td>
+					<td>2</td>
+				</tr>
+				
+				<tr>
+					<td class = "table_hover"><a class = "table_links" href = "#pawn"> Pawn and King vs. Lone King </a></td>
+					<td>Varies</td>
+					<td>28</td>
+					<td>4</td>
+				</tr>
+				
+				<tr>
+					<td class = "table_hover"><a class = "table_links" href = "#two_bishops">Two Bishops and King vs. Lone King</a></td>
+					<td>Yes</td>
+					<td>24</td>
+					<td>7</td>
+				</tr>
+				
+				
+			</tbody>
+		</table>
+		
+		<h3 id = "two_rooks"> Two Rooks and King Versus Lone King:</h3>
+		
+		<!--Starting position of two rooks and king vs lone king endgame-->
+		<img src = "../images/two_rooks_1.png" alt = "Two rooks and king vs. king starting position" height = "256" width = "256">
+		
+		<p>The simplest and most important endgame for any chess hopeful to learn is the two rooks and king
+		vs. lone king endgame (this endgame is also the same as the queen rook and king vs. lone king endgame). 
+		The key to understanding this checkmate is to imagine that your rooks are climbing a ladder, going
+		up one after the other and checking the king in the process. In doing so, the box of safe squares 
+		around the king will continue to shrink until you deliver the final checkmate! </p>
+		<p>In the picture above, the next move by white should be rook to h6. This in turn forces the king
+		back up to f7. But what to do now? If the other rook goes to g7, it will be captured! Simple! Move the rook
+		from g5 to a5. Whenever your opponent gets their king close to your rook, simply move your rook to the opposite
+		side of the board.</p>
+		<p>Note: when attempting this checkmate, you should always have a rook on the row below where the king is.
+		Then, on the next move, you move your other rook to the row the king is on to check him. If you move the wrong rook,
+		then the king can run away to the row between your two rooks, so avoid doing that! Additionally, your rooks
+		should not be on the same column (if they are moving up one row at a time) or on the same row (if they are
+		moving across one column at a time).</p>
+		
+		<!-- side bar describing how to make sure you move your two rooks correctly during the checkmate -->
+		<div class = "side_bar"><h3 class = "No_Margin">Helpful Hint: </h3>If you ever get confused as to which rook to move next, imagine your two rooks are two feet
+		climbing up a ladder. If you want to go up a ladder, you alternate which foot you put on the next step on every step. After all,
+		 if you move the foot you are standing on up to the next step (as opposed to your other foot), you'll end up falling off the ladder.
+		Remember: climb the ladder to checkmate! </div>	
+		
+		<!--Image of the king being forced up to the last row of the board -->
+		<img src = "../images/two_rooks_2.png" alt = "Two rooks and king vs. king on row 7" height = "256" width= "256">
+		
+		<p> In the picture above, the black king is forced upwards to row 8. If the king went
+		to e8 for his next move, then white's next move would be rook to a8: Checkmate!</p> <br>
+		
+		<strong>The Final Checkmate Position:</strong> <br>
+		<!--The final checkmate position for the 2 rooks and king vs. lone king endgame-->
+		<img src = "../images/two_rooks_3.png" alt = "Two rooks and king vs. king checkmate" height = "256" width = "256">
+		<br>
+		
+		<h3 id = "queen"> Queen and King Versus Lone King:</h3>
+		<!-- Starting position of queen and king vs. lone king endgame -->
+		<img src = "../images/queen_1.png" alt = "Queen and king vs. king starting position" height = "256" width = "256">
+		<p>One of the most common chess endgames is the queen and king vs. lone king 
+		endgame. Fortunately, this endgame is quite formulaic, and can be reduced down 
+		to a series of simple steps.</p>
+		
+		
+		<!-- Creating an ordered list of the 3 phases of performing queen and king vs. lone king checkmate.
+		Each ordered list also contains an unordered list nested inside of it which lists tips and directions for
+		how to complete the objective of the given phase -->
+		<ol>
+			<li>Driving the king to the edge of the board
+				<ul class = "list_style">
+					<li>While the king is in the center of the board, try to move your queen
+					so that it is one knight's jump (one square up and 2 squares over) away
+					from the king.</li>
+					<li>If on a given move you can't move your queen one knight's jump away from the
+					king, then move your queen to a square that's adjacent to a square which is a knight's
+					jump away from the king.</li>
+					<li>Repeat the above process until the king moves into one of the rows on the edge of the board</li>
+				</ul>
+			</li>
+			<li> Forcing the king to the corner two squares of the board
+				<ul class = "list_style">
+					<li>Once the king has moved to one of the 4 edge rows of the board,
+					move your queen  diagonally to the second row from the edge of the board
+					such that there are at least 4 squares between your queen and the end of the row 
+					that your queen is on (on the side of the queen where the opponent's king is)</li>
+					<li>After you go to the second to last row, move your queen up one square at a time
+					until it is 4 squares away from the corner of the board. If the opponent's king blocks you
+					from advancing, then move your king to lose a tempo and force your opponent to move their king away</li>
+				</ul>
+			</li>
+				
+			<li>The final checkmate position
+				<ul class = "list_style">
+					<li>Move your king so that it is in position to protect the queen during the checkmate.
+					The king must be positioned either so that the queen can move to the square diagonal from the corner
+					(if the opponent's king will move to the corner on the next move) or on the square that will
+					guard the square adjacent from the enemy king.</li>
+					<li>DO NOT move your king into the row that the enemy king is in or into a square that guards the
+					one square that the other king can go to. Doing so will cause a stalemate to occur.</li>
+					<li> Once your king is in position, move your queen so that it is touching your king and on
+					a square horizontally or vertically one square away from the king in order to deliver checkmate.
+					If the king is in the corner, you can move your queen to the square diagonal from the corner
+					for the checkmate. </li>
+				</ul>
+			</li>
+		</ol>
+		
+		<strong>Two Examples of Queen and King vs. Lone King Checkmate Positions:</strong> <br>
+		
+		<!-- A caption bar explaining the importance of the king in the endgame -->
+		<div class = "caption_bar">By herself, the queen is not strong enough to deliver mate. But armed with the power of her king,
+		the lone king is no match for the combination of the king and queen! Remember, in the endgame the king is an attacking piece, not a damsel
+		in distress.</div>
+		
+		<!--An example of the queen and king vs. king checkmate position -->
+		<img src = "../images/queen_2.png" alt = "Queen and king vs. king checkmate outside the corner" height = "256" width = "256">
+		<!--Another example of the queen and king vs. king checkmate position -->
+		<img src = "../images/queen_3.png" alt = "Queen and king vs. king checkmate in the corner" height = "256" width = "256">
+		
+		<h3 id = "rook"> Rook and King Versus Lone King:</h3>
+		<p>Did you master the queen and king vs. king endgame yet? If so, then you're ready to tackle 
+		the rook and king vs. king endgame! </p>
+		<!--An image showing the starting position of the rook and king vs. lone king endgame -->
+		<img src = "../images/lone_rook_1.png" alt = "Rook and king vs. king starting position" height = "256" width = "256">
+		
+		<p> To get started, white should move his rook up to g4 to block the black king off from the lower 4
+		rows of the board. After this, white should move his king up so it is next to his rook. That way, the 
+		black king can't capture his rook. White will then keep moving his rook and king up one square at a time
+		as a unit, forcing the black king to the edge of the board. If the black king keeps moving back and forth between 
+		two squares, then move your king so that it is touching your rook and is 2 squares away from the king horizontally
+		or vertically, which will force the king to yield to you due to what's known as the opposition (having your king 
+		2 squares from your opponent's king with it being their turn to move). </p>
+		<p>Eventually, when the king is forced to the last row of the board, the position will look similar to as below.</p>
+		
+		<!--An image showing the position when the king is driven to the back row in the rook and king vs. lone king endgame-->
+		<img src = "../images/lone_rook_2.png" alt = "Rook and king vs. king on the last row" height = "256" width = "256">
+		<p> White's goal is to have one square (horizontally or vertically) between the two kings, and then move his rook to the last row for checkmate (since white's king is guarding all the squares
+		that the king can move to outside the last row). If it is black to move in the position above, then white will make the move rook to a8 checkmate on their next move if the black king moves up to a4.
+		If the king moves down, white's king can follow him. Eventually, the black king will hit the bottom of the
+		board and be forced to move up so that there is one square of space between the 2 kings, at which point white can move his rook to a8 for checkmate. </p>
+		<p> If it is white's turn to move here, then no matter where white moves, black can move to another square so that the two kings have more space between them.
+		To counter this, white should move his rook down one square. This keeps the black king on the last row, but
+		also causes the black king to move once before the white king's next move, which forces black into the situation outlined above where it's black's turn to move.
+		Regardless, the end result will be the same, with white easily checkmating the black king. </p>
+		<strong> The Final Rook and King vs. Lone King Checkmate Position:</strong> <br>
+		
+		<!--The final checkmate in the rook and king vs. lone king endgame-->
+		<img src = "../images/lone_rook_3.png" alt = "Rook and king vs. lone king checkmate" height = "256" width = "256">
+		
+		<h3 id = "pawn">Pawn and King vs. Lone King:</h3>
+		
+		<p>Unlike all of the endgames studied previously, this one may end in a draw with best
+		play from each side. However, if the pawn in question is not a rook pawn (on the a or h files) and your king is
+		two squares above your pawn (with the opposing king not attacking your pawn on the first move), then the side
+		with the pawn can actually force a win! Let's see how that works with an example.</p>
+		<strong>Pawn and King vs. Lone King: White to Move and Win</strong> <br>
+		
+		<!--Starting position of this example of pawn and king vs. lone king endgame -->
+		<img src = "../images/pawn_1.png" alt = "Pawn and king vs. lone king starting position" height = "256" width = "256">
+		<p>In this position, what is the best move for white? If you answered pawn to d4, you'd have drawn the game.
+		In pawn king endgames, the king must always go ahead of his pawn in order to lead it to safety. In doing so,
+		the king can "push" the opposing king out of the way (since two kings can't touch and the other player has to move their king
+		in this endgame) in order to allow his pawn to reach the last row and become a queen.</p>
+		<p> From this position, white should play king to f6. If black replies with king to c6, then white can just advance his pawn so
+		that the king is blocked from moving down to capture it. After the black king goes to c7, white can advance their pawn again.
+		After which, the black king will likely go to d8, resulting in this common endgame position:</p>
+		
+		<!--An image of an important endgame position where white can promote his pawn to a queen by gaining the opposition -->
+		<img src = "../images/pawn_2.png" alt = "Pawn on the 5th row and king vs. lone king" height = "256" width = "256">
+		<p>From this position, white needs to move his king to d6, gaining the opposition. After this, black must go to either e8 or c8.
+		Regardless of which way the king goes, white will move their king diagonally up on the next turn in
+		the opposite direction that the black king moved (ex. black king to e8 will be met with white king to c7).
+		From here, white's king is guarding the promotion square, and he can simply keep advancing his pawn until it becomes
+		a queen, and then transition to an easy queen and king vs. lone king endgame. </p>
+		<strong>Note:</strong>
+		<br><p>If you allow the black king to control the promotion square when you advance your pawn, then when
+		the pawn advances to the 7th row, the king can just hide behind it. If the white king moves to defend the pawn,
+		a stalemate will occur on the next move. If the white king moves away from his pawn, then black can capture it on the next move,
+		which will also cause a draw to occur (this time due to insufficient material). You must do everything in your power to stop this from happening.</p>
+		<strong>Beware This Position!</strong>
+		<br>
+		<!--A common stalemate that white can accidentally fall into -->
+		<img src = "../images/pawn_3.png" alt = "Pawn and king vs. king stalemate" height = "256" width = "256">
+		
+		<!-- Side bar describing how to block the opposing king from capturing your pawn -->
+		<div class = "side_bar"><h3 class = "No_Margin">Helpful Hint:</h3> On some occasions, the enemy king may start to make a push
+		towards your pawn, rather than towards the promotion square at the end of the board. If this happens, you must follow these two guidelines:
+		If your king is in between your pawn and the opposing king, then advance your pawn to get it to safety. If the opposing king is approaching your pawn from a different direction,
+		then move your king back to protect the pawn instead. And remember: no matter what, never ever let the opposing king get between you and your pawn.
+		If you do, you will surely lose it!</div>
+		
+		<h3 id = "two_bishops">Two Bishops and King vs. Lone King Endgame:</h3>
+		
+		<p>We have now reached the last of the fundamental endgames that must be understood
+		in order to become proficient at chess. In this case, we saved the hardest for last.</p>
+		<p>To start off this endgame, the side with two bishops should get their bishops onto two adjacent squares
+		in the center of the board, with their king next to the bishops and protecting them. Once they do that, the board will look
+		similar to the position shown below.</p>
+		
+		<!--The starting position of the two bishops and king vs. lone king endgame -->
+		<img src = "../images/two_bishops_1.png" alt = "Two bishops and king vs. king starting position" height = "256" width = "256">
+		<p>In this position, with black to move, black has no choice but to move back, since the bishops
+		and king are controlling all the other squares the king could move to. After the black king goes to e7, white should shift their bishops up one row:
+		first moving their dark squared bishop to c5, then on the next turn moving their light squared bishop to d5
+		(order matters here. Moving the light squared bishop first would allow king to d6, threatening the bishop
+		and forcing it to retreat).</p>
+		<p> From here, white needs to get their king back to the row above the bishops as it was in the picture above,
+		and then repeat the process of moving their bishops up one row. If the opposing king is too close
+		for you to move your bishops up to the next row, then do a waiting move, and move your king up one row to force the other
+		king back. After 2 shifts of your bishops, the position will look something like this:</p>
+		
+		<!--Position of the pieces after the black king is restricted to only 2 squares on the board -->
+		<img src = "../images/two_bishops_2.png" alt = "Two bishops and king vs. king on the last row" height = "256" width = "256">
+		<p>The black king is now stuck moving back and forth between two squares. In the meantime, white can
+		move their king around their bishops until it is on a6. From here, if the black king is on b8, white can simply move their light squared
+		bishop to d7, forcing the king into the corner. If the king is on c8, then white can do a waiting move and move their
+		white bishop back to b5, and then on the next move, white can move their bishop to d7. </p>
+		<p>After this, it is important that white does not do the move bishop to c7, which will cause a stalemate.
+		Instead, white should now do a waiting move, moving their dark squared bishop to c5. After the
+		black king moves, white should move their dark squared bishop to d6 for check, forcing the king into the corner.
+		This will then be followed by moving the light squared bishop to c6: checkmate.</p>
+		<strong>Checkmate with Two Bishops and a King vs. a Lone King:</strong><br>
+		
+		<!-- Caption bar describing the importance of practicing endgames until you perfect them. -->
+		<div class = "caption_bar">This endgame is indisputably the most frustrating of all the fundamental chess
+		endgames. You may find yourself spending many hours trying to push the king to the corner, with the king escaping back
+		to the center of the board at the last minute. But do not be discouraged! Your patience will pay off, and after enough practice,
+		you'll be able to perform two bishops checkmate in your sleep.</div>
+		
+		<!--The final checkmate position for the two bishops and king vs. lone king endgame -->
+		<img src = "../images/two_bishops_3.png" alt = "Two bishops and king vs. king checkmate" height = "256" width = "256"> <br>
+		<p>Practice the endgames above until you master them. Doing so will allow you to easily beat
+		your opponents who don't know how to perform elementary checkmates!</p>
+		<p class = "copyright">© Vygovsky enterprises | www.ChessExpert.com | 1999-2018</p>
+	</body>
+</html>
+		

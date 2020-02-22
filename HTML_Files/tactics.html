@@ -1,0 +1,138 @@
+<!--A page detailing important tactics that a chess player needs to learn to become better at chess -->
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" type="text/css" href="../CSS_Style_Sheet/StyleSheet.css">
+		<title>Tactics</title>
+	</head>
+	
+	<body>
+		<!--Outputting the links to the other web pages on the site -->
+		<nav class = "banner">
+			<div class = "header_links_position">
+			<div class = "header_links"><a class = "link_format" href = "chess_main.html">Home </a></div>
+			<div class = "header_links"><a class = "link_format" href = "endgames.html">Endgames</a></div>
+			<div class = "header_links"><a class = "link_format" href = "tactics.html">Tactics </a></div>
+			<div class = "header_links"><a class = "link_format" href = "famous_games.html">Famous Games </a></div>
+			</div> <br>
+		</nav>
+		
+		<h2>Important Tactics</h2>
+		
+		<p>The student of chess cannot advance to a master of chess unless they understand how to create opportunities
+		to set up favourable positions for themselves. The creation of these opportunities is known as tactics, and will
+		be discussed extensively in this section. </p>
+		<p>If you would like to jump to a given tactic, click on one of the links below. Otherwise, you can follow
+		the order provided, which lists tactics from easiest to most complicated.</p>
+		
+		<!-- Listing bookmarks for each of the different tactics, so the user can quickly look at whichever
+		tactic they like without having to scroll down the page to find it-->
+		<a style = "margin-left: 12%;" class = "body_link_format" href = "#Forks">Forks</a>
+		<a class = "body_link_format" href = "#Skewers">Skewers</a>
+		<a class = "body_link_format" href = "#Pins">Pins</a>
+		<a class = "body_link_format" href = "#Discovered">Discovered Attacks </a>
+		<a class = "body_link_format" href = "#Double">Double Checks </a>
+		<a class = "body_link_format" href = "#Windmill">Windmills </a>
+		
+		<h3 id = "Forks">Forks:</h3>
+		
+		<p>A fork occurs when one piece attacks multiple pieces at the same time. A fork often happens with a bishop or knight,
+		but it can also happen with a rook or even with a pawn! In the diagram below, black's bishop is forking white's two rooks.
+		As a result, on black's next turn the bishop will capture one of white's rooks. </p>
+		<!--A picture of a black bishop simultaneously attacking both of white's rooks. -->
+		<img src = "../images/fork.png" alt = "Fork" width = "256" height = "256">
+		
+		<h3 id = "Skewers">Skewers:</h3>
+		
+		<p>In a skewer, a piece threatens a high value piece, forcing it to move out of the way, allowing the capture of a lower ranking piece
+		that was behind the valuable piece. Skewers can happen on a diagonal (with queens and bishops administering the skewer)
+		or on a row or column (if a queen or rook is administering the skewer). </p>
+		<!-- A picture of a white bishop attacking a black queen, which has a black rook on the same diagonal behind it -->
+		<img src = "../images/skewer.png" alt = "Skewer" width = "256" height = "256">
+		<p>In this example, white's bishop is skewering the black queen and rook. Once the queen moves out of the way
+		to avoid capture, white can simply take the black rook on their next turn</p>
+		
+		<h3 id = "Pins">Pins:</h3>
+		
+		<p>In a pin, a piece is prevented from moving because doing so would expose another more valuable
+		piece to capture. There are two types of pins: relative pins and absolute pins. In a relative pin, a piece
+		exerts a pin on another piece, but that piece could still move if the other player wanted (even though the piece
+		behind it could then be captured). An example of this would be if moving a white pawn forward would allow the black bishop to capture
+        white's queen. White could move their pawn if they wanted (though it's ill-advised).</p>
+		<p>When a piece is in an absolute pin, however, it does not have the luxuary of movement. This occurs when a piece is trapped
+		on a line between the king and the attacking piece, since moving the piece would put the king in check,
+		which is an illegal move. </p>
+		
+		<!-- Side bar describing how to prevent pins -->
+		<div class = "side_bar"><h3 class = "center" style = "margin-left:0vw;">Helpful Hint:</h3>If you can help it, try to avoid putting pieces on the same row, column, or diagonal
+		as your king. Especially if there are no other pieces in between your king and the piece on the same line as the king.
+		If you do this, you will be able to block most pin oppotunities before they even appear.</div>
+		
+		<!--A picture of white's bishop on the same column as his king, with the black rook about to pin the bishop
+		to the king on the next move of the game -->
+		<img src = "../images/pins.png" alt = "Pins" width = "256" height = "256">
+		<p> In the diagram above, white has just captured one of black's rooks with his bishop. Material
+		is now equal at 5 points per player, and everything appears to be going alright for white. </p>
+		<p> Suddenly, the roof caves in. Black plays rook to b8, pinning the bishop to the king in an absolute pin.
+		White is now doomed to lose their bishop on the next turn no matter where they move. Faced with no better options,
+		white now plays his best possible move: resigning. </p>
+		
+		<h3 id = "Discovered">Discovered Attacks: </h3>
+		<p>In a discovered attack, the movement of a piece causes a different piece to now be attacking 
+		something (when before, the piece that just moved had been blocking this attack). If the discovered attack
+		is a check, then it is referred to as a discovered check, and can be an especially powerful tactic. </p>
+		
+		<!--A picture of a white bishop with a pawn blocking it from checking the black king, and a black queen
+		1 square up and 1 square diagonal from the pawn -->
+		<img src = "../images/discovered.png" alt = "Discovered Attack" width = "256" height = "256">
+		<p>In this position, it's white's turn to move. Down 5 points with very few pieces left on the board,
+		the position looks bleak for white. However, in one move, white can turn it all around. White plays the
+		stunning move pawn to f5, which creates a discovered check from the bishop (which is now attacking the king).
+		While this is occurring, the pawn is attacking the queen. Black is now the one in a horrible spot. He can either
+		move his king and lose his queen on the next turn, or he can move his queen into the diagonal of the bishop, at which point
+		black can simply capture the queen with his bishop. After the queen is taken, white can force the promotion of his pawn
+		to a queen using his bishop, and can then easily checkmate his opponent. What a turnaround! </p>
+		
+		<h3 id = "Double">Double Checks:</h3>
+		<p>The double check is an extraordinarily powerful attack, likely the second strongest
+	    tactic in all of chess! In a double check, two pieces check the enemy king simultaneously. Because
+		the king has to get out of check by the end of his next move, he cannot block the check by moving a piece
+		or by capturing a piece (assuming that neither of the checking pieces is hanging on a square adjacent to the king)
+		since the other piece would still be checking him after that. As such, the king has no choice but to move to
+		another square, often allowing for further checks or for the capture of a piece.</p>
+		
+		<!-- Caption bar with quote from Aron Nimzowitsch -->
+		<div class = "caption_bar">"Even the laziest of kings flees wildly in the face of a double check." <br>
+		 - Aron Nimzowitsch </div>
+		 
+		<!-- A picture of a white bishop with a white knight between it and the enemy king, such that on the next move
+		white can create a double check and threaten the black queen -->
+		<img src = "../images/double.png" alt = "Double Check" width = "256" height = "256">
+		<p> In this game, black appears poised to capture either white's knight or white's bishop on the next move, and to leave
+		white down in material. Black laughs as he sees the predicament that his opponent has fallen into. A victory now
+		would be almost impossible! Without missing a beat, white plays knight to e5! Confused, black starts to move his hand to play rook takes knight,
+		but realizes in horror that he is in a double check from the knight and the bishop. He now has no choice but to move his king. After king to f6, white
+		plays knight takes queen, leaving his opponent to hang his head in shame, and then to sheepishly resign. </p>
+		
+		<h3 id = "Windmill">Windmills:</h3>
+		<p>At last, we arrive at the most powerful tactic in all of chess: the windmill! The windmill consists of a regular check
+		followed by a discovered check, which keep alternating back and forth as the side performing the checks captures many enemy pieces. Sounds 
+		confusing, right? Fortunately, the simple example below can illustrate what the windmill is all about. </p>
+		
+		<!-- A picture of a white rook and bishop lined up to create a windmill on the black king that will wipe out 
+		black's material advantage-->
+		<img src = "../images/windmill.png" alt = "Windmill" height = "256" width = "256">
+		<p>In this example, black starts off ahead by 5 points. However, that won't stay the case for very long.
+		White launches a windmill with rook takes e7. Black's only legal move now is king to f8. After this,
+		white takes c7 with his rook, simultaneously creating a discovered check with the bishop, and forcing the king back to e8. From here, the rook can
+		move back to e7 to check the king, followed by rook takes b7 (repeating the previous cycle). After the king moves to get out of the discovered
+		check, white can now play rook takes a7, taking out a pawn, a knight, a bishop, and a rook, all without losing any pieces! White now
+		has a commanding 6 point lead, and black can only stare dazed in confusion, wondering what vortex captured all of his pieces.</p>
+		<p>Tactics make up both the heart and soul of chess. At the foundation of every great attack and every trap lies
+		the tactic. The more you study, the better you'll get, so make sure you review this page until you master all 
+		6 of the basic tactics listed here.</p>
+		<p class = "copyright">© Vygovsky enterprises | www.ChessExpert.com | 1999-2018</p>	
+	</body>
+</html>
