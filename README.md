@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project is a website I made for a Web Programming class at Westchester Community College in 2018. The assignment was to design an informative website on a topic of our choosing. In my case, I chose to create a website about chess, since I like to play chess. The site is written from the perspective of a fictional chess grandmaster named "Borris Vygovsky," who gives advice to aspiring chess students on his website "www.ChessExpert.com" (this domain isn't actually registered to anyone right now). The website contains descriptions of tactics, strategies for chess endgames, and examples of famous chess games.
+This project is a website I made for a web programming class at Westchester Community College in 2018. The assignment was to design an informative website on a topic of our choosing. In my case, I chose to create a website about chess, since I like to play chess. The site is written from the perspective of a fictional chess grandmaster named "Borris Vygovsky," who gives advice to aspiring chess students on his website "www.ChessExpert.com" (this domain isn't actually registered to anyone right now). The website contains descriptions of tactics, strategies for chess endgames, and examples of famous chess games.
 
 ## Project Structure
 
